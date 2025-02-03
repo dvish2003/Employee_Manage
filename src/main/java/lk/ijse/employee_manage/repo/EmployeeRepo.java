@@ -1,6 +1,6 @@
 package lk.ijse.employee_manage.repo;
 
-import lk.ijse.Emplyee_Manage.Entity.Employee;
+import lk.ijse.employee_manage.Entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
