@@ -1,25 +1,21 @@
-package lk.ijse.employee_manage.Entity;
+package lk.ijse.employee_manage.entity;
 
 import jakarta.persistence.*;
+import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * Author: vishmee
- * Date: 1/10/25
- * Time: 2:56 PM
- * Description:
- */
+
+@Entity
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Entity
-@Table(name = "EMPLOYEE")
+@Table(name = "Employee")
 public class Employee {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int empID;
     private String empName;
     private String empAddress;
+    private String empMNumber;
 }

@@ -1,13 +1,7 @@
 package lk.ijse.employee_manage.repo;
 
-import lk.ijse.employee_manage.Entity.Employee;
+import lk.ijse.employee_manage.entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-/**
- * Author: vishmee
- * Date: 1/10/25
- * Time: 3:08 PM
- * Description:
- */
-public interface EmployeeRepo extends JpaRepository <Employee,Integer>{
+public interface EmployeeRepo extends JpaRepository<Employee,Integer> {
 }
