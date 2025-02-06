@@ -11,7 +11,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@CrossOrigin
 @RestController
 @RequestMapping("api/v1/employee")
 public class EmployeeController {
@@ -133,7 +133,7 @@ public class EmployeeController {
         }
     }
 
-    @GetMapping("/searchEmployee/{empID}")
+ /*   @GetMapping("/searchEmployee/{empID}")
     public ResponseEntity searchEmployee(@PathVariable int empID){
         try {
             EmployeeDTO employeeDTO = employeeService.searchEmployee(empID);
@@ -155,7 +155,7 @@ public class EmployeeController {
             return new ResponseEntity(responseDTO, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
-
+*/
     @DeleteMapping("/deleteEmployee/{empID}")
     public ResponseEntity deleteEmployee(@PathVariable int empID){
         try {
