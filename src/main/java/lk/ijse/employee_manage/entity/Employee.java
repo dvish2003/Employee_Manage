@@ -5,7 +5,12 @@ import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+/**
+ * Author: vishmee
+ * Date: 2/7/25
+ * Time: 1:33 AM
+ * Description:
+ */
 
 @Entity
 @AllArgsConstructor
