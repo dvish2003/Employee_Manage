@@ -42,7 +42,6 @@ public class EmployeeController {
                 System.out.println(employeeDTO.getEmpAddress());
                 System.out.println(employeeDTO.getEmpMNumber());
                 System.out.println(employeeDTO.getEmpName());
-                System.out.println("Fuck 2");
 
                 responseDTO.setCode(VarList.RSP_SUCCESS);
                 responseDTO.setMessage("Success");
@@ -54,7 +53,6 @@ public class EmployeeController {
                 System.out.println(employeeDTO.getEmpAddress());
                 System.out.println(employeeDTO.getEmpMNumber());
                 System.out.println(employeeDTO.getEmpName());
-                System.out.println("Fuck 3");
 
                 responseDTO.setCode(VarList.RSP_DUPLICATED);
                 responseDTO.setMessage("Employee Registered");
@@ -65,7 +63,6 @@ public class EmployeeController {
                 System.out.println(employeeDTO.getEmpAddress());
                 System.out.println(employeeDTO.getEmpMNumber());
                 System.out.println(employeeDTO.getEmpName());
-                System.out.println("Fuck 4");
 
                 responseDTO.setCode(VarList.RSP_FAIL);
                 responseDTO.setMessage("Error");
@@ -78,7 +75,6 @@ public class EmployeeController {
             System.out.println(employeeDTO.getEmpAddress());
             System.out.println(employeeDTO.getEmpMNumber());
             System.out.println(employeeDTO.getEmpName());
-            System.out.println("Fuck 5");
 
             responseDTO.setCode(VarList.RSP_ERROR);
             responseDTO.setMessage(ex.getMessage());

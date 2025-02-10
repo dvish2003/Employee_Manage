@@ -8,7 +8,6 @@ package lk.ijse.employee_manage.dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
